@@ -1,0 +1,83 @@
+JavaScript Operators:
+
+1)Arithematic:
++,-,*,/
+
+Modulus Operator  -  % (Reminder)
+Exponential Operator: **
+
+increment by one = ++
+decrement by one  --
+examples:
+<script>
+        let a = 10
+        let b = 5
+        b++
+        a--
+        document.write(b,"<br>")
+        document.write(a,"<br>")
+        //reminder
+        document.write(a%b,"<br>")
+        //quotient
+        document.write(a/b, "<br>")
+        document.write(a*b, "<br>")
+        document.write(a**b,"<br>")
+</script>
+
+2)Assignment Operator:
+"="
+example:
+var student = "Kavya"
+
+"+=","-=","/=","%="
+
+3)Logical Opeators:
+
+and: - &&
+T and T = T, F and F = F, F and T = F, T and F = F
+
+or: ||
+
+not: - !
+examples:
+<script>
+        let a = 10
+        let b = 5
+        document.write(a>b && b>11, "<br>")
+        document.write(a>b || b>11, "<br>")
+        document.write(!(a<b) && (a>11), "<br>")
+</script>
+
+4) Relational(Comparisoin) Opeators:
+<,>,>=,<=,==,===,!=,!===
+
+5)Ternary Operator
+
+condition ? value : value
+example:
+<script>
+        let t = 40
+        let r=(t>40)? "AC-off" : "AC-on"
+        document.write(r)
+</script>
+
+WINDOWS METHODS:
+alert()
+prompt()// to take input from the user
+examples:
+<script>
+       // alert("hi chiru")
+        //console.log(alert)
+        //document.write(alert)
+        let name = prompt("Enter your name: ")
+        alert(name)
+        let aa = prompt()
+        let bb = prompt()
+        console.log(typeof(aa))
+        document.write(typeof(aa))
+        console.log(aa+bb)
+        document.write(aa+bb)
+    </script>
+
+confirm()
+
