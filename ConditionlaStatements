@@ -1,0 +1,61 @@
+Conditional Statements:
+
+if
+if -else
+else -if
+switch
+Ternary operator
+
+if:
+if(condition){
+    code
+}
+example:
+<script>
+        let a=4
+        let b=5
+        if(a<b){
+            document.write("hello venkat")
+        }
+        document.write("brilliant chiru")
+</script>
+
+if -else:
+if(condition){
+    code
+}else{
+    code
+}
+example:
+<script>
+        let a=4
+        let b=5
+        if(a>b){
+            document.write("Hello World", "<br>")
+        }else{
+            document.write("hi same", "<br>")
+        }
+        document.write("brilliant chiru")
+</script>
+
+if -else:
+if(condition){
+    code
+}else if(condition){
+    code
+}else{
+    code
+}
+example:
+<script>
+        let age = prompt("Enter your age: ")
+        let name = prompt("Enter your name: ")
+        if(age < 18){
+            alert(name+" you are to young to marry")
+        }else if(age > 35){
+            alert(name+" you are too old to marry")
+        }else{
+            alert(name+" perfect age to marry")
+        }
+        alert("Welcome to my world")
+</script>
