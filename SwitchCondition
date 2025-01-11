@@ -1,0 +1,32 @@
+
+Switch-Case:
+
+switch(variable/ expression){
+case value 1:
+code;
+break;
+case 2:
+code;
+break;
+default:
+code;
+}
+
+example:
+<script>
+        let num = prompt("Enter a number: ")
+        switch(true){
+            case num>0:
+                console.log("number is positive")
+                break
+            case num==0:
+                console.log("number is zero")
+                break
+            case num<0:
+                console.log("number is negative")
+                break
+            default:
+                console.log("invalid input")
+        }
+</script>
+
