@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        let num = prompt("Enter a number: ")
+        switch(true){
+            case num>0:
+                console.log("number is positive")
+                break
+            case num==0:
+                console.log("number is zero")
+                break
+            case num<0:
+                console.log("number is negative")
+                break
+            default:
+                console.log("invalid input")
+        }
+    </script> -->
+    <!-- <script>
+        let day = prompt("Enter the day: ")
+        switch(day){
+            case "Monday":
+            case "Tuesday":
+            case "Wednesday":
+            case "Thursday":
+                console.log("It's a week day.")
+                break
+            case "Friday":
+            case "Saturday":
+            case "Sunday":
+                console.log("It's a weekend.")
+                break
+            default:
+                console.log("Invalid.")
+        }
+    </script> -->
+    <script>
+        let units = parseInt(prompt("Enter the value: "))
+        let unitPrice 
+        if(units <= 50){
+            unitPrice = (units)*2
+            TwentyPercent = (unitPrice*20)/100
+            console.log(unitPrice+TwentyPercent)
+        }else if(units>=51 && units <=150){
+            unitPrice = (50*2)+((units-50)*3)
+            TwentyPercent=(unitPrice*20)/100
+            console.log(unitPrice+TwentyPercent)
+        }else if(units>=151 && units <=250){
+            unitPrice = (50*2)+(100*3)+((units-150)*5)
+            TwentyPercent = (unitPrice*20)/100
+            console.log(unitPrice+TwentyPercent)
+        }else{
+            unitPrice = (50*2)+(100*3)+(100*5)+((units-250)*8)
+            TwentyPercent = (unitPrice*20)/100
+            console.log(unitPrice+TwentyPercent)
+        }
+    </script>
+</body>
+</html>
