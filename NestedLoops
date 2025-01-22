@@ -1,0 +1,5 @@
+Nested loops:
+
+a loop inside the another loop
+the inner loop will execute one time for each iteration of outer loop
+an inner loop within the repeating block of outer loop
