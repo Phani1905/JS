@@ -1,0 +1,25 @@
+Functions:
+A functions is reusable block of code
+It can be call any where program
+Reusable Code: using an existing code with out writing it even we need
+
+JS:
+Key-word = function
+()
+Parameters = values(variables) which are declared inside the () Whie defining a functions
+Arguments: values which are passeed through the Parameters at the time of calling the function
+
+syntax:
+
+function greet(name)
+
+return statement:
+
+The return statement can be used to return the value to function call
+example:
+function a(aa,bb){
+    return aa+bb
+}
+
+Anonmou function:
+a function with out a name, After we create a function 
