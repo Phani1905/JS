@@ -1,0 +1,41 @@
+Arrow Functions:
+
+---Es6 version
+---more readable and more structure
+---annonymous functions(lambda functions)
+---without function name but they are assigned to a variable
+
+Example:
+
+let C=()=>{
+    code
+}
+
+Synchronous and asynchronous functions:
+
+asynchronous founctions:
+
+not a step by step process
+
+use setTimeout(arrowFunctions only,time) built-in function
+Example:
+
+<script>
+        console.log("hi raviteja")
+        setTimeout(()=>{console.log("I am waiting")},5000)
+        console.log("I am in lab")
+</script>
+
+callback function:
+A call back function is a function that is passed argumnet to another function.
+
+Example:
+
+function greet(name, callback){
+    console.log(`Hello, ${name}!`)
+    callback()
+}
+function saygoodbye(){
+    console.log("Goodbye")
+}
+greet("sam", saygoodbye)
