@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        let C=()=>{
+            console.log("hi phani")
+        }
+        C()
+    </script> -->
+    <!-- <script>
+        let x=(x,y)=>{
+            console.log(x+y)
+        }
+        x(20,30)
+        x(40,50)
+    </script> -->
+    <!-- <script>
+        let age=18
+        let welcome=(age<18)?()=>console.log("hi 18"):()=>console.log("bye")
+        welcome()
+    </script> -->
+    <!-- <script>
+        console.log("hi raviteja")
+        setTimeout(()=>{console.log("I am waiting")},5000)
+        console.log("I am in lab")
+    </script> -->
+    <script>
+        function greet(name, callback){
+        console.log(`Hello, ${name}!`)
+        callback()
+        }
+        function saygoodbye(){
+        console.log("Goodbye")
+        }
+        greet("sam", saygoodbye)        
+    </script>
+</body>
+</html>
