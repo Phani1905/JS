@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        function greet(name, callback){
+        console.log(`Hello, ${name}!`)
+        callback()
+        }
+        greet("Ganesh", function(){
+            console.log("a Python Developer")
+        })
+    </script> -->
+    <script>
+        function fetchData(callback){
+            console.log("Fetching data.....")
+            callback()
+        }setTimeout(function(){
+            console.log("Data fetched......")
+        },2000)
+        function processData(){
+            console.log("prcessing the fetched data....")
+        }
+        fetchData(processData)
+    </script>
+</body>
+</html>
