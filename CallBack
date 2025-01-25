@@ -1,0 +1,5 @@
+Callback:
+--you can pass the Callback function
+as argument to another function
+execution: the function receiving the callback will
+execute the callback at some point during its executions(often at the end or after an asynchronous operation is done)
