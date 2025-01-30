@@ -1,0 +1,5 @@
+how to remove child elements from a parent node
+removeChild() - to remove the elements
+
+to append a new element to the parent node:
+appendChild()
