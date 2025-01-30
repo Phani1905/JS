@@ -6,17 +6,73 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="a">a</h1>
+    <!-- <h1 id="a">a</h1>
     <h1 class="a">b</h1>
-    <h1>c</h1>
-    <h1>d</h1>
-    <h1>e</h1>
-    <h1>f</h1>
-    <h1>g</h1>
-    <script>
+    <h1 class="b">c</h1>
+    <h1 class="a">d</h1>
+    <h1 class="b">e</h1>
+    <h1 class="a">f</h1>
+    <h1 class="a">g</h1> -->
+    <!-- <ul>
+        <li>Ganesh</li>
+        <li>Ravi</li>
+        <li>Sam</li>
+    </ul> -->
+    <div id="a">
+        <h1>Ravi</h1>
+        <h1>Ram</h1>
+    </div>
+    <div id="b">
+        <h2>Sam</h2>
+        <h2>Venkat</h2>
+    </div>
+    <!-- <script>
         //let x = document.getElementById("a")
         let x = document.getElementsByClassName("a")
         console.log(x)
+        for(let i=0; i<x.length; i++){
+            console.log(x[i])
+        }
+    </script> -->
+    <!-- <script>
+        let x = document.getElementsByTagName("h1")
+        console.log(x)
+        for(let i=0; i<x.length; i++){
+            console.log(x[i])
+        }
+    </script> -->
+    <!-- <script>
+        let x = document.querySelector("h1")
+        console.log(x)
+    </script> -->
+    <!-- <script>
+        let title 
+        for(let i=0; i<3; i++){
+            Title = document.createElement("h1")
+            Title.className = 't'
+            Title.textContent = i
+            consloe.log(Title)
+
+        }
+    </script> -->
+    <!-- <script>
+        const ul=document.querySelector("ul")
+        const lists = document.querySelectorAll("li")
+        console.log(ul)
+        console.log(lists)
+        for(const list of lists){
+            console.log(`Removing: ${list.textContent}`)
+            ul.removeChild(list)
+            console.log(lists)
+            console.log(list)
+        }
+    </script> -->
+    <script>
+        let n = document.createElement("h2")
+        n.textContent = "chiru"
+        let p = document.getElementById("b")
+        p.appendChild(n)
+        console.log(p.innerText)
     </script>
 </body>
 </html>
