@@ -1,0 +1,3 @@
+insertBefore(): insert a new node before an existing node as child node of a specified parent
+
+--requires a reference to both the new node and existing node you want to insert before
