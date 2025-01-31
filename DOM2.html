@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="a">
+        <h1>Ram</h1>
+        <h2 id="b">Sam</h2>
+    </div>
+    <div>
+        <h2>Venkat</h2>
+    </div>
+    <script>
+        let n = document.createElement("h2")
+        n.textContent = "chiru"
+        let p = document.getElementById("a")
+        let l = document.getElementById("b")
+        p.insertBefore(n,l)
+    </script>
+</body>
+</html>
