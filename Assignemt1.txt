@@ -1,0 +1,47 @@
+Questions:
+Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+
+Answer:
+
+Data Types:
+
+Data Type is the classification of data into its designated type.
+for exapmle we have a number one which is classified as integer data type.
+
+We have two types data types:
+1)Premitive Data Types
+2)Non-Premitive Data Types
+
+Premitive Data Types:
+
+These data types are inbuilt data types which are given directly by the programming language.
+These data types only take a single input.
+
+integer,string,float,boolean,charecter are considered as Premitive Data types
+exapmle:
+var a = 1 //integer
+var a = "string" // string
+var a = 0.1 //float
+var a = False // boolean
+var a = 'c' // charecter
+
+Non-Premitive Data Types:
+
+These data types are user defined data types. They can take myltiple inputs.
+There Two types of Non-Premitive Data Types:
+1)Linear Data Types
+2)Non-Linear Data Types
+
+Linear Data Types:
+In this data type elements are stored in a sequential order.
+
+array, stack, queue, linkedlist are considered as Linear Data Types.
+exapmle:
+let a = [1,2,3]
+
+Non-Linear Data Types:
+In this data type elements are not stored in a sequential order.
+
+trees, graphs, hashtables are considered as Non-Linear Data Types.
+example:
+
